@@ -1,6 +1,9 @@
 // react
 import { useEffect, useState } from 'react';
 
+// next-intl
+import { useTranslations } from 'next-intl';
+
 // framer-motion
 import { AnimatePresence } from 'framer-motion';
 
@@ -14,6 +17,7 @@ import DesktopMenu from './DesktopMenu';
 import ReservationButton from './ReservationButton';
 
 const NavMenu = () => {
+  const t = useTranslations('Header');
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   useEffect(() => {
@@ -38,6 +42,7 @@ const NavMenu = () => {
             toggled={isMobileMenuOpen}
             aria-controls="mobile-menu"
             aria-expanded={isMobileMenuOpen}
+            aria-label={t('hamburgerMenu')}
           />
         </div>
         <ReservationButton className="md:hidden" />

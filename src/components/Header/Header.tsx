@@ -13,7 +13,7 @@ import ScrollDown from './ScrollDown';
 const Header = () => {
   const t = useTranslations('Header');
   return (
-    <header id="home" className="relative h-screen">
+    <header id="home" className="relative">
       <Slider />
       <Image
         src="/images/logo.png"

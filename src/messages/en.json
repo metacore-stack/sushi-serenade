@@ -4,7 +4,8 @@
     "subTitle": "A slice of heaven",
     "logo": "Logo",
     "sushiImage": "Sushi Image",
-    "scroll": "Scroll"
+    "scroll": "Scroll",
+    "hamburgerMenu": "Open Navigation Menu"
   },
   "NavMenu": {
     "home": "Home",

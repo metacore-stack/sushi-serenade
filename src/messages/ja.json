@@ -4,7 +4,8 @@
     "subTitle": "天国の一切れ",
     "logo": "ロゴ",
     "sushiImage": "寿司の画像",
-    "scroll": "スクロール"
+    "scroll": "スクロール",
+    "hamburgerMenu": "メニューを開く"
   },
   "NavMenu": {
     "home": "ホーム",
