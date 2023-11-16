@@ -64,13 +64,10 @@ export default async function LocaleLayout({
   let messages;
   try {
     messages = (await import(`@/messages/${locale}.json`)).default;
-  } catch (error) {
-    // notFound();
-  }
+  } catch (error) {}
   return (
     <html lang={locale} className="scroll-smooth">
-      <body className="bg-bgGray text-white">
-        {/* className={sawarabiMincho.className} */}
+      <body className={`bg-bgGray text-white ${sawarabiMincho.className}`}>
         <NextIntlClientProvider locale={locale} messages={messages}>
           {children}
         </NextIntlClientProvider>
