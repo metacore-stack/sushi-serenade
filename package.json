@@ -12,7 +12,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "budoux": "^0.6.0",
     "framer-motion": "^10.16.5",
     "hamburger-react": "^2.5.0",
     "next": "14.0.2",
