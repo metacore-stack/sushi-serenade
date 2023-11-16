@@ -45,7 +45,7 @@ const Slider = () => {
       pagination={{
         clickable: true,
         bulletClass:
-          'w-2 aspect-square rounded-full bg-white/40 inline-block mx-2 md:mx-1 hover:bg-white/70 hover:scale-150 transition-all duration-200',
+          'w-2 aspect-square rounded-full bg-white/40 inline-block mx-4 md:mx-1 hover:bg-white/70 hover:scale-150 transition-all duration-200',
         bulletActiveClass: '!bg-accent !opacity-100 scale-150',
       }}
       onSlideChangeTransitionEnd={(s) => {
