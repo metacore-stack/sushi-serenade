@@ -1,0 +1,92 @@
+{
+  "Header": {
+    "title": "Sushi Doshira",
+    "subTitle": "A slice of heaven",
+    "logo": "Logo",
+    "sushiImage": "Sushi Image",
+    "scroll": "Scroll"
+  },
+  "NavMenu": {
+    "home": "Home",
+    "menu": "Menu",
+    "atmosphere": "Atmosphere",
+    "access": "Access",
+    "reservation": "Reservation"
+  },
+  "SushiTypes": {
+    "nigiriSushiTitle": "Nigiri Sushi",
+    "nigiriSushiDescription": "Our nigiri sushi is made with the freshest fish and rice, and is sure to delight your taste buds. Try our salmon, tuna, or yellowtail nigiri for a truly authentic sushi experience.",
+    "makiRollsTitle": "Maki Rolls",
+    "makiRollsDescription": "Our maki rolls are a customer favorite! Choose from a variety of fillings, including salmon, tuna, crab, and avocado. Each roll is expertly crafted and bursting with flavor.",
+    "sashimiPlatterTitle": "Sashimi Platter",
+    "sashimiPlatterDescription": "A fresh and flavorful assortment of raw fish, sliced to perfection. Our sashimi platter is perfect for sharing with friends and family."
+  },
+  "Preparation": {
+    "preparation": "We believe that sushi is more than just food, it's an experience that engages all of your senses."
+  },
+  "Menu": {
+    "menu": "Menu",
+    "currency": "$",
+    "mainDishesTitle": "Dishes",
+    "mainDishesItems": {
+      "1": { "title": "Tuna Sashimi", "price": "12.99" },
+      "2": { "title": "Salmon Sashimi", "price": "11.99" },
+      "3": { "title": "Yellowtail Sashimi", "price": "13.99" },
+      "4": { "title": "Eel Sushi", "price": "4.99" },
+      "5": { "title": "Shrimp Sushi", "price": "3.99" },
+      "6": { "title": "Octopus Sushi", "price": "5.99" },
+      "7": { "title": "California Roll", "price": "6.99" },
+      "8": { "title": "Spicy Tuna Roll", "price": "7.99" },
+      "9": { "title": "Dragon Roll", "price": "12.99" },
+      "10": { "title": "Rainbow Roll", "price": "13.99" },
+      "11": { "title": "Spider Roll", "price": "11.99" },
+      "12": { "title": "Unagi Don", "price": "14.99" },
+      "13": { "title": "Chirashi Don", "price": "16.99" },
+      "14": { "title": "Tekka Don", "price": "15.99" }
+    },
+    "drinksTitle": "Drinks",
+    "drinksItems": {
+      "1": { "title": "Green Tea", "price": "1.99" },
+      "2": { "title": "Sake", "price": "5.99" },
+      "3": { "title": "Beer", "price": "4.99" },
+      "4": { "title": "Plum Wine", "price": "6.99" },
+      "5": { "title": "Whiskey", "price": "7.99" },
+      "6": { "title": "Shochu", "price": "8.99" },
+      "7": { "title": "Umeshu", "price": "9.99" },
+      "8": { "title": "Oolong Tea", "price": "2.99" },
+      "9": { "title": "Orange Juice", "price": "3.99" },
+      "10": { "title": "Grapefruit Juice", "price": "4.99" },
+      "11": { "title": "Coke", "price": "2.99" },
+      "12": { "title": "Sprite", "price": "2.99" },
+      "13": { "title": "Ramune", "price": "3.99" },
+      "14": { "title": "Calpis", "price": "4.99" }
+    }
+  },
+  "Testimonials": {
+    "testimonial1Name": "Shota Watanabe",
+    "testimonial1Testimonial": "“I’ve been coming to this sushi restaurant for years and it never disappoints. The sushi is always fresh and delicious, and the staff is friendly and welcoming. I highly recommend it!”",
+    "testimonial2Name": "Scarlett Collins",
+    "testimonial2Testimonial": "“This sushi restaurant is a hidden gem! The sushi is some of the best I’ve ever had, and the prices are very reasonable. I would definitely recommend it to anyone looking for great sushi.”",
+    "testimonial3Name": "Darnell Wilson",
+    "testimonial3Testimonial": "“The sushi here is amazing! I’ve never had anything like it before. The fish is so fresh and the rice is perfectly cooked. I would definitely recommend this place to anyone looking for great sushi.”"
+  },
+  "Atmosphere": {
+    "title": "Atmosphere",
+    "description": "Our restaurant is designed to provide a serene and relaxing atmosphere where you can enjoy the freshest sushi and sashimi in town. Whether you’re looking for a romantic dinner for two or a fun night out with friends, our restaurant is the perfect choice."
+  },
+  "Reservation": {
+    "title": "Reservation",
+    "phoneTitle": "Reservation - Enquiries",
+    "buttonText": "Internet Reservation"
+  },
+  "Access": {
+    "addressTitle": "Address",
+    "addressText": "1-2-345, Ginza, Tokyo",
+    "accessTitle": "Access",
+    "accessText": "Shinbashi - 5m / Ginza - 5m",
+    "enquiryTitle": "Enquiries"
+  },
+  "Other": {
+    "backToTop": "Back to Top"
+  }
+}

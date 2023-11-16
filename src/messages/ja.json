@@ -1,0 +1,92 @@
+{
+  "Header": {
+    "title": "鮨どしら",
+    "subTitle": "天国の一切れ",
+    "logo": "ロゴ",
+    "sushiImage": "寿司の画像",
+    "scroll": "スクロール"
+  },
+  "NavMenu": {
+    "home": "ホーム",
+    "menu": "メニュー",
+    "atmosphere": "雰囲気",
+    "access": "アクセス",
+    "reservation": "予約する"
+  },
+  "SushiTypes": {
+    "nigiriSushiTitle": "握り寿司",
+    "nigiriSushiDescription": "最新鮮な魚と米を使用した握り寿司は、味覚を満足させること間違いなしです。サーモン、マグロ、ハマチなど、本格的な寿司体験をお楽しみください。",
+    "makiRollsTitle": "巻き寿司",
+    "makiRollsDescription": "お客様に大好評の巻き寿司！サーモン、マグロ、カニ、アボカドなど、様々な具材からお選びいただけます。一つ一つ丁寧に作られ、味わい深い逸品です。",
+    "sashimiPlatterTitle": "刺身盛り合わせ",
+    "sashimiPlatterDescription": "新鮮で風味豊かな生の魚の盛り合わせ。切り方にこだわった一品です。家族や友人とシェアするのに最適です。"
+  },
+  "Preparation": {
+    "preparation": "寿司が単なる食べ物ではなく、すべての感覚を刺激する体験であると信じています。"
+  },
+  "Menu": {
+    "menu": "メニュー",
+    "currency": "¥",
+    "mainDishesTitle": "料理",
+    "mainDishesItems": {
+      "1": { "title": "マグロの刺身", "price": "1430" },
+      "2": { "title": "サーモンの刺身", "price": "1320" },
+      "3": { "title": "ハマチの刺身", "price": "1540" },
+      "4": { "title": "鰻寿司", "price": "550" },
+      "5": { "title": "エビ寿司", "price": "440" },
+      "6": { "title": "タコ寿司", "price": "660" },
+      "7": { "title": "カリフォルニアロール", "price": "770" },
+      "8": { "title": "スパイシーツナロール", "price": "880" },
+      "9": { "title": "ドラゴンロール", "price": "1430" },
+      "10": { "title": "レインボーロール", "price": "1540" },
+      "11": { "title": "スパイダーロール", "price": "1320" },
+      "12": { "title": "鰻丼", "price": "1650" },
+      "13": { "title": "ちらし寿司", "price": "1870" },
+      "14": { "title": "鉄火丼", "price": "1760" }
+    },
+    "drinksTitle": "ドリンク",
+    "drinksItems": {
+      "1": { "title": "緑茶", "price": "220" },
+      "2": { "title": "日本酒", "price": "660" },
+      "3": { "title": "ビール", "price": "550" },
+      "4": { "title": "梅酒", "price": "770" },
+      "5": { "title": "ウイスキー", "price": "880" },
+      "6": { "title": "焼酎", "price": "990" },
+      "7": { "title": "梅酒", "price": "1100" },
+      "8": { "title": "ウーロン茶", "price": "330" },
+      "9": { "title": "オレンジジュース", "price": "440" },
+      "10": { "title": "グレープフルーツジュース", "price": "550" },
+      "11": { "title": "コーラ", "price": "330" },
+      "12": { "title": "スプライト", "price": "330" },
+      "13": { "title": "ラムネ", "price": "440" },
+      "14": { "title": "カルピス", "price": "550" }
+    }
+  },
+  "Testimonials": {
+    "testimonial1Name": "翔太 渡辺",
+    "testimonial1Testimonial": "「何年もこの寿司屋に通っていますが、いつも期待を裏切られることはありません。寿司は常に新鮮で美味しく、スタッフはフレンドリーで歓迎してくれます。強くお勧めします！」",
+    "testimonial2Name": "コリンズ スカーレット",
+    "testimonial2Testimonial": "「この寿司屋は隠れた宝石です！寿司は私が今まで食べた中でも最高のものの一つで、価格も非常に合理的です。本当に素晴らしい寿司をお探しの方には、ぜひお勧めします。」",
+    "testimonial3Name": "ウィルソン ダーネル",
+    "testimonial3Testimonial": "「ここの寿司は素晴らしいです！今まで食べたことがないほど美味しいです。魚はとても新鮮で、ご飯は完璧に調理されています。本当に素晴らしい寿司をお探しの方には、ぜひお勧めします。」"
+  },
+  "Atmosphere": {
+    "title": "雰囲気",
+    "description": "当店は、新鮮な寿司や刺身を楽しめる静かでリラックスした雰囲気を提供するように設計されています。二人のロマンチックなディナーや友達との楽しい夜など、様々なシーンでご利用いただけます。"
+  },
+  "Reservation": {
+    "title": "ご予約",
+    "phoneTitle": "ご予約・お問い合わせ",
+    "buttonText": "インターネット予約"
+  },
+  "Access": {
+    "addressTitle": "住所",
+    "addressText": "東京都中央区銀座 1-2-345",
+    "accessTitle": "交通アクセス",
+    "accessText": "新橋駅徒歩5分/銀座駅徒歩5分",
+    "enquiryTitle": "お願い合わせ"
+  },
+  "Other": {
+    "backToTop": "上に戻る"
+  }
+}

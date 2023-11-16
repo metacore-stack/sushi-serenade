@@ -2,6 +2,9 @@
   "name": "sushi-restaurant",
   "version": "0.1.0",
   "private": true,
+  "description": "Sushi Restaurant Website by Rashid Shamloo",
+  "author": "Rashid Shamloo",
+  "email": "rashidshamloo@gmail.com",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,19 +12,30 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.0.2"
+    "budoux": "^0.6.0",
+    "framer-motion": "^10.16.5",
+    "hamburger-react": "^2.5.0",
+    "next": "14.0.2",
+    "next-intl": "^2.22.1",
+    "react": "^18.2.0",
+    "react-device-detect": "^2.2.3",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.12.0",
+    "react-loading": "^2.0.3",
+    "swiper": "^11.0.4"
   },
   "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "autoprefixer": "^10.0.1",
+    "@types/node": "^20.9.0",
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "autoprefixer": "^10.4.16",
+    "clsx": "^2.0.0",
+    "eslint": "^8.53.0",
+    "eslint-config-next": "14.0.2",
     "postcss": "^8",
-    "tailwindcss": "^3.3.0",
-    "eslint": "^8",
-    "eslint-config-next": "14.0.2"
+    "prettier": "^3.1.0",
+    "prettier-plugin-tailwindcss": "^0.5.7",
+    "tailwindcss": "^3.3.5",
+    "typescript": "^5.2.2"
   }
 }

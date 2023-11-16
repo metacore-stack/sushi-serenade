@@ -1,0 +1,14 @@
+[
+  {
+    "id": "testimonial1",
+    "image": "/images/testimonials/avatar_01.png"
+  },
+  {
+    "id": "testimonial2",
+    "image": "/images/testimonials/avatar_02.png"
+  },
+  {
+    "id": "testimonial3",
+    "image": "/images/testimonials/avatar_03.png"
+  }
+]

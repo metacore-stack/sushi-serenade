@@ -1,0 +1,4 @@
+[
+  { "id": "mainDishes", "image": "/images/menu/main-dishes.jpg" },
+  { "id": "drinks", "image": "/images/menu/drinks.jpg" }
+]
