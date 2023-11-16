@@ -31,7 +31,7 @@ const SushiTypes = () => {
                 src={item.image}
                 alt={t(`${item.title}Title`)}
                 fill
-                sizes="(max-width: 480px) 100vw, (max-width: 768pxpx) 200px, 280px"
+                sizes="(max-width: 480px) 100vw, (max-width: 768px) 200px, 280px"
                 className="h-full w-full object-cover"
               />
             </div>

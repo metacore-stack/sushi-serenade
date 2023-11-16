@@ -72,9 +72,10 @@ const Slider = () => {
             src={`/images/header/${String(i + 1).padStart(2, '0')}.jpg`}
             fill
             alt={`${t('sushiImage')} ${i + 1}`}
-            sizes="110vw"
+            sizes="100vw"
             priority={i === 0}
             className="object-cover will-change-transform"
+            loading={i === 0 ? 'eager' : 'lazy'}
           />
         </SwiperSlide>
       ))}
