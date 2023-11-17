@@ -18,7 +18,7 @@ const config: Config = {
       keyframes: {
         zoom: {
           '0%': { scale: '1' },
-          '100%': { scale: '1' },
+          '100%': { scale: '1.5' },
         },
         scroll: {
           '0%': { translate: '0% 0%', opacity: '1' },
