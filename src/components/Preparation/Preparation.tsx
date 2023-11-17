@@ -10,7 +10,8 @@ import Reveal from '../common/Reveal';
 const Preparation = () => {
   const t = useTranslations('Preparation');
   return (
-    <section className="relative h-[240px] w-full overflow-hidden md:h-screen">
+    <section className="relative flex h-[240px] w-full items-center justify-center overflow-hidden sm:h-[360px] md:h-screen">
+      <h2 className="sr-only">{t('title')}</h2>
       <Image
         src="/images/preparation/bg.jpg"
         alt="Background"
@@ -18,13 +19,15 @@ const Preparation = () => {
         width="10"
         height="10"
         sizes="115vw"
-        className="absolute right-0 w-auto min-w-[115vw] max-w-none md:min-h-full"
+        className="absolute right-0 top-0 w-auto min-w-[115vw] max-w-none md:min-h-full"
       />
-      <Reveal className="absolute right-[5%] top-1/2 max-w-[40%] -translate-y-1/2 rounded-[32px] bg-black/10 p-2 md:p-[48px]">
-        <p className="text-[clamp(18px,4px_+_3vw,50px)] drop-shadow-md">
-          {t('preparation')}
-        </p>
-      </Reveal>
+      <div className="relative h-full w-[1296px] max-w-[95%]">
+        <Reveal className="absolute right-0 top-1/2 max-w-[46%] -translate-y-1/2 rounded-[32px] bg-black/10 p-2 md:right-[5%] md:p-[48px] lg:right-0">
+          <p className="text-center text-[clamp(18px,4px_+_3vw,50px)] drop-shadow-md">
+            {t('preparation')}
+          </p>
+        </Reveal>
+      </div>
     </section>
   );
 };

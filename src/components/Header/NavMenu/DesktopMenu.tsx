@@ -17,6 +17,7 @@ const DesktopMenu = () => {
   const t = useTranslations('NavMenu');
   return (
     <nav className="hidden md:block">
+      <h2 className="sr-only">{t('navigationMenu')}</h2>
       <ul className="flex gap-4">
         {menu.map((item, i) => (
           <li key={i} className="flex items-center justify-center gap-4">

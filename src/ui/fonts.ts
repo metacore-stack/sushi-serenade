@@ -1,7 +1,14 @@
 // next font
-import { Sawarabi_Mincho } from 'next/font/google';
+import { BIZ_UDMincho, Bitter } from 'next/font/google';
 
-export const sawarabiMincho = Sawarabi_Mincho({
+export const bizudMincho = BIZ_UDMincho({
   weight: ['400'],
   subsets: ['latin'],
+  variable: '--bizudMincho',
+});
+
+export const bitter = Bitter({
+  weight: ['400'],
+  subsets: ['latin'],
+  variable: '--bitter',
 });

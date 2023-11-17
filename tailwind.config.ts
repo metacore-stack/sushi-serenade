@@ -18,7 +18,7 @@ const config: Config = {
       keyframes: {
         zoom: {
           '0%': { scale: '1' },
-          '100%': { scale: '1.5' },
+          '100%': { scale: '1' },
         },
         scroll: {
           '0%': { translate: '0% 0%', opacity: '1' },
@@ -28,6 +28,10 @@ const config: Config = {
       animation: {
         zoom: 'zoom 25s linear forwards',
         scroll: 'scroll 1.75s ease-in forwards infinite',
+      },
+      fontFamily: {
+        bitter: 'var(--bitter)',
+        bizudMincho: 'var(--bizudMincho)',
       },
     },
   },

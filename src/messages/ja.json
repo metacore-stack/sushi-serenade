@@ -12,9 +12,11 @@
     "menu": "メニュー",
     "atmosphere": "雰囲気",
     "access": "アクセス",
-    "reservation": "予約する"
+    "reservation": "予約する",
+    "navigationMenu": "ナビゲーションメニュー"
   },
   "SushiTypes": {
+    "title": "寿司の種類",
     "nigiriSushiTitle": "握り寿司",
     "nigiriSushiDescription": "最新鮮な魚と米を使用した握り寿司は、味覚を満足させること間違いなしです。サーモン、マグロ、ハマチなど、本格的な寿司体験をお楽しみください。",
     "makiRollsTitle": "巻き寿司",
@@ -23,6 +25,7 @@
     "sashimiPlatterDescription": "新鮮で風味豊かな生の魚の盛り合わせ。切り方にこだわった一品です。家族や友人とシェアするのに最適です。"
   },
   "Preparation": {
+    "title": "寿司とは",
     "preparation": "寿司が単なる食べ物ではなく、すべての感覚を刺激する体験であると信じています。"
   },
   "Menu": {
@@ -64,6 +67,7 @@
     }
   },
   "Testimonials": {
+    "title": "クチコミ評価",
     "testimonial1Name": "翔太 渡辺",
     "testimonial1Testimonial": "「何年もこの寿司屋に通っていますが、いつも期待を裏切られることはありません。寿司は常に新鮮で美味しく、スタッフはフレンドリーで歓迎してくれます。強くお勧めします！」",
     "testimonial2Name": "コリンズ スカーレット",
@@ -81,6 +85,7 @@
     "buttonText": "インターネット予約"
   },
   "Access": {
+    "title": "アクセス",
     "addressTitle": "住所",
     "addressText": "東京都中央区銀座 1-2-345",
     "accessTitle": "交通アクセス",

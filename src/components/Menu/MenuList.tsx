@@ -13,7 +13,7 @@ const MenuList = ({
   headerImage: string;
 }) => {
   return (
-    <div className="flex max-w-full flex-col gap-[32px] md:w-full md:max-w-[400px] md:gap-[48px]">
+    <div className="flex w-full max-w-full flex-col gap-[32px] md:w-[400px] md:gap-[48px]">
       <Reveal effect="fadeBTTS">
         <MenuHeader dataId={dataId} headerImage={headerImage} />
       </Reveal>

@@ -4,12 +4,16 @@ import type { Metadata } from 'next';
 // next-intl
 import { NextIntlClientProvider } from 'next-intl';
 
+// clsx
+import clsx from 'clsx';
+
 // tailwind styles
 import '@/styles/globals.css';
 
 // fonts
-import { sawarabiMincho } from '@/ui/fonts';
+import { bizudMincho, bitter } from '@/ui/fonts';
 
+// metadata
 export const metadata: Metadata = {
   title: 'Sushi Doshira by Rashid Shamloo',
   description: 'Japanese Sushi Restaurant Website by Rashid Shamloo',
@@ -67,7 +71,12 @@ export default async function LocaleLayout({
   } catch (error) {}
   return (
     <html lang={locale} className="scroll-smooth">
-      <body className={`bg-bgGray text-white ${sawarabiMincho.className}`}>
+      <body
+        className={clsx(
+          'bg-bgGray text-white',
+          locale === 'ja' ? bizudMincho.className : bitter.className,
+        )}
+      >
         <NextIntlClientProvider locale={locale} messages={messages}>
           {children}
         </NextIntlClientProvider>

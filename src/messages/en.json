@@ -12,9 +12,11 @@
     "menu": "Menu",
     "atmosphere": "Atmosphere",
     "access": "Access",
-    "reservation": "Reservation"
+    "reservation": "Reservation",
+    "navigationMenu": "Navigation Menu"
   },
   "SushiTypes": {
+    "title": "Sushi Types",
     "nigiriSushiTitle": "Nigiri Sushi",
     "nigiriSushiDescription": "Our nigiri sushi is made with the freshest fish and rice, and is sure to delight your taste buds. Try our salmon, tuna, or yellowtail nigiri for a truly authentic sushi experience.",
     "makiRollsTitle": "Maki Rolls",
@@ -23,6 +25,7 @@
     "sashimiPlatterDescription": "A fresh and flavorful assortment of raw fish, sliced to perfection. Our sashimi platter is perfect for sharing with friends and family."
   },
   "Preparation": {
+    "title": "What sushi is",
     "preparation": "We believe that sushi is more than just food, it's an experience that engages all of your senses."
   },
   "Menu": {
@@ -64,6 +67,7 @@
     }
   },
   "Testimonials": {
+    "title": "Testimonials",
     "testimonial1Name": "Shota Watanabe",
     "testimonial1Testimonial": "“I’ve been coming to this sushi restaurant for years and it never disappoints. The sushi is always fresh and delicious, and the staff is friendly and welcoming. I highly recommend it!”",
     "testimonial2Name": "Scarlett Collins",
@@ -81,6 +85,7 @@
     "buttonText": "Internet Reservation"
   },
   "Access": {
+    "title": "Access",
     "addressTitle": "Address",
     "addressText": "1-2-345, Ginza, Tokyo",
     "accessTitle": "Access",

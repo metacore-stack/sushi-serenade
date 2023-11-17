@@ -30,7 +30,7 @@ const Atmosphere = () => {
             <h2 className="text-[clamp(40px,20px_+_3vw,60px)] text-accent">
               {t('title')}
             </h2>
-            <p className="text-center text-[clamp(22px,4px_+_2vw,28px)]">
+            <p className="text-center text-[clamp(24px,4px_+_2vw,28px)] leading-[1.65]">
               {t('description')}
             </p>
           </div>

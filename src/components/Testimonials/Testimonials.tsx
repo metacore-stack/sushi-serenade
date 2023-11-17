@@ -14,6 +14,7 @@ const Testimonials = () => {
   const t = useTranslations('Testimonials');
   return (
     <section className="mx-auto flex max-w-[95%] flex-col items-center justify-evenly gap-[48px] py-[48px] md:flex-row md:gap-[16px] xl:justify-center xl:gap-[48px]">
+      <h2 className="sr-only">{t('title')}</h2>
       {testimonials.map((testimonial, i) => (
         <Reveal
           key={i}
@@ -36,7 +37,9 @@ const Testimonials = () => {
                   className="pointer-events-none select-none"
                 />
               </div>
-              <p className="text-center">{t(`${testimonial.id}Testimonial`)}</p>
+              <p className="text-center text-[clamp(16px,4px_+_2vw,18px)] leading-[1.65]">
+                {t(`${testimonial.id}Testimonial`)}
+              </p>
             </div>
           </article>
         </Reveal>

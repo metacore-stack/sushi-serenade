@@ -22,7 +22,7 @@ const MenuHeader = ({
         className="h-full w-full object-cover"
       />
       <div className="absolute inset-0 bg-black/40" />
-      <h2 className="relative">{t(`${dataId}Title`)}</h2>
+      <h3 className="relative">{t(`${dataId}Title`)}</h3>
     </div>
   );
 };

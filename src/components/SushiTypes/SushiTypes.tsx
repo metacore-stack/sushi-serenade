@@ -17,6 +17,7 @@ const SushiTypes = () => {
   const t = useTranslations('SushiTypes');
   return (
     <section className="flex flex-col items-center justify-center gap-[24px] py-[24px] md:gap-[48px] md:py-[48px]">
+      <h2 className="sr-only">{t('title')}</h2>
       {sushiTypes.map((item, i) => (
         <article
           className={clsx(
@@ -42,10 +43,10 @@ const SushiTypes = () => {
             className="flex"
           >
             <div className="flex flex-col items-center justify-center gap-[10px] rounded-[32px] border-[1px] border-borderGray bg-bgDarkGray p-[42px] md:items-start md:px-[32px] md:py-[16px] lg:px-[64px]">
-              <h2 className="text-[clamp(28px,10px_+_2vw,40px)] text-accent">
+              <h3 className="text-[clamp(28px,10px_+_2vw,40px)] text-accent">
                 {t(`${item.title}Title`)}
-              </h2>
-              <p className="text-[clamp(18px,8px_+_1vw,26px)]">
+              </h3>
+              <p className="text-center text-[clamp(18px,8px_+_1vw,26px)] md:text-left">
                 {t(`${item.title}Description`)}
               </p>
             </div>

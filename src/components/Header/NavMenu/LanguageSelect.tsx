@@ -2,6 +2,9 @@
 import { useLocale } from 'next-intl';
 import Link from 'next-intl/link';
 
+// fonts
+import { bizudMincho, bitter } from '@/ui/fonts';
+
 // clsx
 import clsx from 'clsx';
 
@@ -15,19 +18,21 @@ const LanguageSelect = () => {
       <Link
         href="/"
         locale="en"
-        className={
-          locale === 'en' ? 'scale-110 font-bold text-accent' : navHover
-        }
+        className={clsx(
+          `${bitter.variable} font-bitter`,
+          locale === 'en' ? 'scale-110 font-bold text-accent' : navHover,
+        )}
       >
         English
       </Link>
-      &nbsp;&nbsp;/&nbsp;&nbsp;
+      <span className="mx-3">/</span>
       <Link
         href="/"
         locale="ja"
-        className={
-          locale === 'ja' ? 'scale-110 font-bold text-accent' : navHover
-        }
+        className={clsx(
+          `${bizudMincho.variable} font-bizudMincho`,
+          locale === 'ja' ? 'scale-110 font-bold text-accent' : navHover,
+        )}
       >
         日本語
       </Link>
