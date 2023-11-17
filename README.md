@@ -51,6 +51,9 @@ All of the images used in this application have responsive sizes according to th
 
 I have made my own custom elements like a scroll-to-top component and a scroll-down element with animation instead of relying on external packages/assets.
 
+## Challenges
+A challenge I faced was that the font I was using (Sawarabi Mincho) didn't have the kanji for sushi (鮨) so I had to use another font which caused some layout changes due to the letter spacing/sizing differences and on top of it the fonts that I liked didn't have good English/Latin characters so I ended up using separate fonts for the English and Japanese versions.
+
 ## Tech Stack
 - TypeScript
 - React.js
